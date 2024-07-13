@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* menu icon */
+#menu{
+    font-size: 2.5em;
+    z-index: 1  ;
+    position: relative;
+    bottom: 40px;
+    transition: 0.5;
+}
+/* close icon */
+#close{
+    color: #ffffffc2;
+    position: relative;
+    left: 350px;
+}
+/* menu bar styling */
+.container{
+    height: 100vh;
+    width: 25vw;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.763);
+    
+    transition: 0.5s;
+    position: relative;
+    left: -390px;
+    bottom: 100px;
+
+} 
+#close:hover{
+    color:#fff ;
+   
+    
+}
+/* styling for social icons on bottom */
+.social{
+    position: relative;
+    top: 250px;
+    font-size: 1.7em;
+    text-align: center;
+    color: #ffffffc2;
+    
+}
+.social span{
+    margin-right: 10px;
+}
+.social span:hover{
+    color: #fff;
+    
+}
+
+.nav-link{
+    height: 10vh;
+    width: 99%;
+    margin-top: 25px;
+    position: relative;
+    top: 35px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    background-color:inherit;
+    /* border: 2px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-link:hover{
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 3px #fff;
+}
+#click{
+    position: relative;
+    right: 400px;
+}
+
+#click:checked ~ .container {
+    
+    position: relative;
+    left: 0px;
+    transition:left 0.5s ease-in 0s ;
+   
+        
+    }
+
